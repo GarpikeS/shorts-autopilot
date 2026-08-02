@@ -11,7 +11,7 @@ channel history, private prompts, or generated media.
 ## Features
 
 - Novelty gate over topic, hook, visual language, characters, props, punchline,
-  and structural template.
+  structural template, and hidden seriality in the beat pattern.
 - Optional image generation through a provider interface. A Polza provider is
   included and reads `POLZA_API_KEY` only from the environment.
 - Edge TTS narration with a Windows System.Speech fallback.
@@ -58,7 +58,9 @@ See [`examples/episode.json`](examples/episode.json) and
 
 Every Short is expected to be standalone. The default gate compares the latest
 10 active manifest records and rejects duplicated hooks, endings, templates,
-or excessive field-level similarity.
+or excessive field-level similarity. The bundled skill also rejects repeated
+shot rhythm, static-slideshow treatment, caption structure, and advice endings
+when they recreate the same format with different nouns.
 
 ## Studio
 

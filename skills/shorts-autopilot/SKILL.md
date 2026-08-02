@@ -16,6 +16,9 @@ QA. Do not bypass a failed novelty check to fill a publishing slot.
 2. Write one standalone entertainment-first concept. It must have a new topic,
    hook, visual language, characters or objects, punchline, and structural
    template.
+   Compare the beat sequence as well as the nouns. A new costume or location
+   does not make `anthropomorphic ASIC enters a profession, encounters one
+   technical cost, then delivers advice` a new format.
 3. Put the concept in an episode JSON using the schema in
    `references/episode-schema.md`.
 4. Run `shorts-autopilot novelty`. If it exits with code 2, revise the concept
@@ -25,6 +28,9 @@ QA. Do not bypass a failed novelty check to fill a publishing slot.
 6. Open the generated contact sheet and listen to the final media. Confirm that
    the conflict is visible in the first two seconds, captions fit, narration is
    intelligible, and the ending lands without channel lore.
+   Reject a contact sheet that is mostly one static composition with changed
+   captions. Reject an opening that needs its caption or narration to explain
+   what is happening.
 7. Read the `.qa.json` report. Do not upload a file with decode, dimension,
    audio, or unexplained long-silence failures.
 8. Hand the validated package to the `youtube-studio-operator` skill.
@@ -34,8 +40,14 @@ QA. Do not bypass a failed novelty check to fill a publishing slot.
 - Treat every Short as an independent work.
 - Do not use episode numbering, recurring characters, cliffhangers, lore, or a
   repeated setup-to-explanation formula.
+- Treat recurring beat structure, caption placement, shot rhythm, synthetic
+  character treatment, and mandatory advice endings as seriality too.
 - Target 12 to 16 seconds. Go longer only when the joke needs it.
 - Put a visual conflict or punchline in the first one or two seconds.
+- Make the opening understandable while muted and before the viewer reads a
+  full sentence.
+- Prefer visible action, transformation, interruption, or consequence over a
+  slideshow of generated stills.
 - Keep advertising and brand solution claims out of the content.
 - Allow at most one brief practical takeaway.
 - Never add internal IDs such as `series`, `episode`, or `meme 12` to public
@@ -51,3 +63,6 @@ shorts-autopilot qa output\ITEM\ITEM.mp4
 
 Do not run `record` with `scheduled` or `published` until YouTube Studio has
 confirmed the video ID and intended publication state.
+
+Before preparing the next item, read `references/performance-gates.md` and use
+the latest completed Shorts to decide which mechanisms to retire.
