@@ -1,0 +1,29 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+
+# Runtime and private browser state
+output/
+workspace/
+chrome-profile/
+youtube-studio-chrome/
+*.token.json
+client_secret*.json
+credentials*.json
+
+# Generated media
+*.mp3
+*.wav
+*.mp4
+*.webm
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.webp

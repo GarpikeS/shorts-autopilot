@@ -1,0 +1,31 @@
+{
+  "id": "sample-power-bill",
+  "title": "The power bill joined the meeting",
+  "description": "A standalone mining joke with one practical takeaway.",
+  "tags": ["mining", "crypto", "shorts"],
+  "topic": "unexpected electricity cost",
+  "hook": "A power meter enters a salary negotiation",
+  "visual_language": "paper cutout office comedy",
+  "characters": ["power meter", "accountant"],
+  "props": ["tiny desk", "oversized invoice"],
+  "punchline": "The meter asks for a performance bonus",
+  "template": "object interview followed by one cost reminder",
+  "voice": "ru-RU-DmitryNeural",
+  "scenes": [
+    {
+      "image_prompt": "Vertical paper cutout office, an electricity meter sits at a tiny desk across from a surprised accountant, readable visual conflict, no text, 9:16",
+      "caption": "Счётчик пришёл на переговоры",
+      "narration": "Счётчик пришёл на переговоры о зарплате."
+    },
+    {
+      "image_prompt": "Vertical paper cutout close-up, electricity meter presents an absurdly large invoice like a resume, comic timing, no text, 9:16",
+      "caption": "Просит премию за переработки",
+      "narration": "Говорит, переработок было слишком много."
+    },
+    {
+      "image_prompt": "Vertical paper cutout scene, accountant calculates total ownership cost while meter waits proudly, distinct composition, no text, 9:16",
+      "caption": "Считайте весь тариф",
+      "narration": "Проверяйте полный тариф до запуска оборудования."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Studio Operator"
+  short_description: "Run muted headless Studio operations safely"
+  default_prompt: "Open YouTube Studio headlessly and silently, operate one validated Short, verify the result, then update the manifest."

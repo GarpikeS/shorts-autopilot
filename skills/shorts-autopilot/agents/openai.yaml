@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shorts Autopilot"
+  short_description: "Generate novelty-gated vertical Shorts"
+  default_prompt: "Create a standalone Short, run the novelty gate, build it, and verify the media QA before any upload."
