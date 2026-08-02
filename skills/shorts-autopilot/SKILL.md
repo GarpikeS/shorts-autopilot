@@ -46,8 +46,16 @@ QA. Do not bypass a failed novelty check to fill a publishing slot.
 - Put a visual conflict or punchline in the first one or two seconds.
 - Make the opening understandable while muted and before the viewer reads a
   full sentence.
+- Prefer a readable human reaction, visible action, transformation, or physical
+  consequence in the first frame. A beautiful establishing shot is not a hook.
+- Physicalize technical abstractions immediately. Do not make the viewer wait
+  for narration to understand terms such as ROI, pool fee, uptime, or network
+  difficulty.
 - Prefer visible action, transformation, interruption, or consequence over a
   slideshow of generated stills.
+- Plan an intentional loop or visual callback when it strengthens the joke.
+- Reject a robotic fallback voice even when silence and decode QA pass. A
+  technical fallback is not a public-quality approval.
 - Keep advertising and brand solution claims out of the content.
 - Allow at most one brief practical takeaway.
 - Never add internal IDs such as `series`, `episode`, or `meme 12` to public

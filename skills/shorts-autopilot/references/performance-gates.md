@@ -24,6 +24,24 @@ review the first frame and contact sheet, and replace future drafts built on
 that mechanism. Do not respond by changing only hashtags, posting time, cast,
 or scenery.
 
+For a small channel with little returning audience, assume every upload starts
+with a cold feed test. The first frame must therefore communicate without prior
+channel knowledge. Keep a consistent subject promise, but do not rely on lore,
+recurring characters, or a repeated production formula to create familiarity.
+
+## First-Frame Gate
+
+Pass only when a muted viewer can identify the unusual event in under one
+second. Strong signals include a readable facial reaction, an interrupted
+action, a visible failure, a transformation, or an immediate physical
+consequence. Weak signals include establishing shots, closed doors, dashboards,
+objects posed for a portrait, and captions that merely name the premise.
+
+Technical abstractions must be physicalized in the opening. If the premise is a
+pool fee, show the reward being visibly taken. If it is downtime, show the
+machine or clock losing days. Do not explain the abstraction for several beats
+before the consequence appears.
+
 ## Hidden Seriality
 
 Consider these features part of the format signature:
